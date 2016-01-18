@@ -1,0 +1,57 @@
+[submodule "vim/.vim/bundle/Vundle.vim"]
+	path = vim/.vim/bundle/Vundle.vim
+	url = https://github.com/gmarik/Vundle.vim.git
+[submodule "vim/.vim/bundle/vimproc.vim"]
+	path = vim/.vim/bundle/vimproc.vim
+	url = https://github.com/Shougo/vimproc.vim.git
+[submodule "vim/.vim/bundle/unite.vim"]
+	path = vim/.vim/bundle/unite.vim
+	url = https://github.com/Shougo/unite.vim
+[submodule "vim/.vim/bundle/peaksea"]
+	path = vim/.vim/bundle/peaksea
+	url = https://github.com/vim-scripts/peaksea.git
+[submodule "vim/.vim/bundle/vim-airline"]
+	path = vim/.vim/bundle/vim-airline
+	url = https://github.com/bling/vim-airline.git
+[submodule "vim/.vim/bundle/nerdtree"]
+	path = vim/.vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vim/.vim/bundle/nerdtree-git-plugin"]
+	path = vim/.vim/bundle/nerdtree-git-plugin
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
+[submodule "vim/.vim/bundle/css.vim"]
+	path = vim/.vim/bundle/css.vim
+	url = https://github.com/JulesWang/css.vim.git
+[submodule "vim/.vim/bundle/vim-less"]
+	path = vim/.vim/bundle/vim-less
+	url = https://github.com/genoma/vim-less.git
+[submodule "vim/.vim/bundle/vim-matchit"]
+	path = vim/.vim/bundle/vim-matchit
+	url = https://github.com/edsono/vim-matchit.git
+[submodule "vim/.vim/bundle/surround"]
+	path = vim/.vim/bundle/surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "vim/.vim/bundle/vim-fugitive"]
+	path = vim/.vim/bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vim/.vim/bundle/gitv"]
+	path = vim/.vim/bundle/gitv
+	url = https://github.com/gregsexton/gitv.git
+[submodule "vim/.vim/bundle/phpcomplete.vim"]
+	path = vim/.vim/bundle/phpcomplete.vim
+	url = https://github.com/shawncplus/phpcomplete.vim.git
+[submodule "vim/.vim/bundle/syntastic"]
+	path = vim/.vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "vim/.vim/bundle/vim-easy-align"]
+	path = vim/.vim/bundle/vim-easy-align
+	url = https://github.com/junegunn/vim-easy-align.git
+[submodule "vim/.vim/bundle/vim-gutter"]
+	path = vim/.vim/bundle/vim-gutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "vim/.vim/bundle/bclose.vim"]
+	path = vim/.vim/bundle/bclose.vim
+	url = https://github.com/rbgrouleff/bclose.vim.git
+[submodule "vim/.vim/bundle/vim-jinjg"]
+	path = vim/.vim/bundle/vim-jinjg
+	url = https://github.com/mitsuhiko/vim-jinja.git
