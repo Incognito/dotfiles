@@ -1,0 +1,40 @@
+[alias]
+    st    = status
+    s     = status -s
+    co    = checkout
+    ci    = commit
+    c     = commit
+    br    = branch
+    b     = branch
+    lg    = log --decorate --graph  --format='%C(yellow)%h%Creset %Cred%d%Creset %s %Cgreen%an%Creset (%C(cyan)%ar%Creset)'
+    l     = log --decorate --graph  --format='%C(yellow)%h%Creset %Cred%d%Creset %s %Cgreen%an%Creset (%C(cyan)%ar%Creset)'
+    la    = log --all --decorate --graph  --format='%C(yellow)%h%Creset %Cred%d%Creset %s %Cgreen%an%Creset (%C(cyan)%ar%Creset)'
+    d     = diff
+    diffc = diff --cached
+    dc    = diff --cached
+    addp  = add --patch
+    ap    = add --patch
+[core]
+    eol          = text
+    excludesfile = ~/.gitignore
+    whitespace   = trailing-space,space-before-tab,tab-in-indent
+    editor       = vim
+[color]
+    branch      = auto
+    diff        = auto
+    interactive = auto
+    status      = auto
+    grep        = auto
+[merge]
+    tool = vimdiff
+[pull]
+    rebase = true
+[status]
+    showUntrackedFiles = all
+[push]
+    default = matching
+[user]
+	name = Brian Graham
+	email = bgraham@waveapps.com
+[github]
+	user = incognito
