@@ -8,6 +8,7 @@
     b     = branch
     lg    = log --decorate --graph  --format='%C(yellow)%h%Creset %Cred%d%Creset %s %Cgreen%an%Creset (%C(cyan)%ar%Creset)'
     l     = log --decorate --graph  --format='%C(yellow)%h%Creset %Cred%d%Creset %s %Cgreen%an%Creset (%C(cyan)%ar%Creset)'
+    lgnodist = log --decorate --graph  --format='%C(yellow)%h%Creset %Cred%d%Creset %s %Cgreen%an%Creset (%C(cyan)%ar%Creset)' -p -- . ":(exclude)*.dist.*" ":(exclude)*/core/static/*"
     la    = log --all --decorate --graph  --format='%C(yellow)%h%Creset %Cred%d%Creset %s %Cgreen%an%Creset (%C(cyan)%ar%Creset)'
     d     = diff
     diffc = diff --cached

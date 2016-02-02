@@ -65,6 +65,7 @@ call NERDTreeHighlightFile('php', 'Magenta', 'none', '#ff00ff', '#151515')
 
 let NERDTreeWinPos='right'                                "NERDTree window to the right
 let NERDTreeAutoDeleteBuffer=1                            "Delete old buffer when renaming or moving a file
+let NERDTreeIgnore = ['\.pyc$']                           "Hide .pyc files
 
 "" Syntastic
 set statusline+=%#warningmsg#
@@ -74,6 +75,7 @@ set statusline+=%*
 let g:syntastic_always_populate_loc_list=1
 let g:syntastic_auto_loc_list=1
 let g:syntastic_loc_list_height = 5
+let g:syntastic_python_flake8_args='--ignore=E501,E225'
 
 "" Fugitive
 nnoremap <silent> <leader>gs :Gstatus<CR>

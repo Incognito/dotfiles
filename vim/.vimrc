@@ -40,6 +40,7 @@ nnoremap <C-l> <C-w>l
 "" backup
 set backup                                                                     "Make a backup of the original file
 set backupdir=~/.vim/backupdir
+set noswapfile
 
 "" undo history
 set undofile
@@ -150,7 +151,7 @@ source ~/.vim/ide.vimrc
 source ~/.vim/php.vimrc
 source ~/.vim/js.vimrc
 source ~/.vim/html.vimrc
-source ~/.vim/python.vimrc
+""source ~/.vim/python.vimrc
 
 """ rst
 autocmd BufNewFile,BufRead *.rst setlocal textwidth=80  colorcolumn=80  spell spelllang=en
