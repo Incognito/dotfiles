@@ -49,7 +49,9 @@ let g:airline_powerline_fonts=1
 
 "" NERDTree
 autocmd vimenter * NERDTree                               "Open NERDTree on vim start
+autocmd VimEnter * wincmd p
 map <leader>n :NERDTreeToggle<CR>
+
 
 function! NERDTreeHighlightFile(extension, fg, bg, guifg, guibg)
     exec 'autocmd filetype nerdtree highlight ' . a:extension .' ctermbg='. a:bg .' ctermfg='. a:fg .' guibg='. a:guibg .' guifg='. a:guifg

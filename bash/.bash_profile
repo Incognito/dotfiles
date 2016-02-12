@@ -17,3 +17,4 @@ alias vi='vim'                                                                 #
 
 alias g='git'                                                                  # because I'm always type "gti"
 
+alias ag='ag --path-to-agignore=~/.agignore'
