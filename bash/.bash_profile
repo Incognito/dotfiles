@@ -4,7 +4,7 @@ source ~/.bashrc                                                               #
 
 # Override PS1 to provide git repo info
 source ~/.git-prompt.sh
-export PS1='\[\e[01;30m\]\u@\h\[\e[00m\]:\[\e[00;36m\]\w\[\e[00m\]$(__git_ps1 " (%s)")\$ ' # nice prompt
+export PS1='\[\e[01;30m\]\u (\D{%F %T})\[\e[00m\]>\[\e[00;36m\]\w\[\e[00m\]$(__git_ps1 " (%s)")\$ ' # nice prompt
 
 #
 # Aliases
