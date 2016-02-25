@@ -1,3 +1,13 @@
 *.min.*
 */static/
+*/staticsite/
+*.dist.*
+staticsite/
+static/
+float_deprecated/static
 payments_web/float_deprecated/static
+payments_console/
+payments_console/core
+payments_console/core/sitestatic/
+core/sitestatic/
+sitestatic/

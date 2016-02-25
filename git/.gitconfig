@@ -15,6 +15,7 @@
     dc    = diff --cached
     addp  = add --patch
     ap    = add --patch
+    wdiff = diff --word-diff-regex=. 
 [core]
     eol          = text
     excludesfile = ~/.gitignore
@@ -33,9 +34,10 @@
 [status]
     showUntrackedFiles = all
 [push]
-    default = matching
+    default = current
 [user]
-	name = Brian Graham
-	email = bgraham@waveapps.com
+    name = Brian Graham
+    email = bgraham@waveapps.com
+    signingkey = 60FD0D2A
 [github]
-	user = incognito
+    user = incognito
