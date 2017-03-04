@@ -67,9 +67,9 @@ set showmatch                                                                  "
 set autoindent                                                                 "Copy indent from current line when starting a new line
 set smartindent                                                                "Do smart autoindenting when starting a new line
 set expandtab                                                                  "Use the appropriate number of spaces to insert a <Tab>
-set tabstop=4                                                                  "Number of spaces that a <Tab> in the file counts for
-set shiftwidth=4                                                               "Indent size
-set softtabstop=4                                                              "Number of spaces that a <Tab> counts for while performing editing operations
+set tabstop=2                                                                  "Number of spaces that a <Tab> in the file counts for
+set shiftwidth=2                                                               "Indent size
+set softtabstop=2                                                              "Number of spaces that a <Tab> counts for while performing editing operations
 set shiftround                                                                 "Round indent to multiple of 'shiftwidth'
 
 """ exception
@@ -129,6 +129,8 @@ Plugin 'vim-gutter'
 Plugin 'phpcomplete'
 Plugin 'vim-easy-align'
 Plugin 'bclose.vim'
+Plugin 'typescript-vim'
+Plugin 'vim-js-indent'
 "https://github.com/Shougo/unite-outline.git
 
 call vundle#end()
@@ -151,6 +153,7 @@ source ~/.vim/ide.vimrc
 source ~/.vim/php.vimrc
 source ~/.vim/js.vimrc
 source ~/.vim/html.vimrc
+source ~/.vim/ts.vimrc
 ""source ~/.vim/python.vimrc
 
 """ rst
